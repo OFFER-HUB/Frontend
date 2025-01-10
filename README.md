@@ -1,50 +1,65 @@
-# React + TypeScript + Vite
+![Banner_OFFER-HUB](https://github.com/user-attachments/assets/43947941-48c8-4505-82cc-f09795793ff4)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌟 OFFER-HUB | Decentralized Freelance Platform  
 
-Currently, two official plugins are available:
+Welcome to **OFFER-HUB**! This platform aims to revolutionize the freelance marketplace by leveraging **blockchain technology**, **cryptocurrency payments**, and **smart contracts** to create a secure and efficient environment for freelancers and clients worldwide.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Our mission is to remove intermediaries, reduce fees, and empower users with tools to collaborate seamlessly in areas like design, programming, writing, and consulting. 🚀  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+##  **Getting Started**  
 
-- Configure the top-level `parserOptions` property like this:
+### Please read carefully and follow our contribution guide step by step, this will allow everything to flow in the best way
+[CONTRIBUTORS_GUIDELINE.md](https://github.com/OFFER-HUB/Frontend/blob/main/docs/CONTRIBUTORS_GUIDELINE.md)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### **🚀 Prerequisites**  
+
+Before contributing, ensure your system meets these requirements:  
+- **Node.js**: v22.11.0  
+- **npm**: v10.9.0  
+---
+
+### **📥 Installation Guide**  
+
+1️⃣ **Fork this repository** to your GitHub account.  
+
+2️⃣ **Clone the repository** to your local machine:  
+```bash
+git clone https://github.com/<your_user>/Frontend
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+3️⃣ **Set up the upstream repository to keep your fork updated:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+git remote add upstream https://github.com/OFFER-HUB/Frontend.git
+```
+
+
+4️⃣ Navigate to the project directory:
+
+```bash
+cd offer-hub
+```
+
+
+5️⃣ Install dependencies:
+
+```bash
+npm install
+```
+
+
+7️⃣ Run the development server:
+
+```bash
+npm run dev
+```
+
+
+8️⃣ Open the app in your browser at:
+
+```bash
+http://localhost:3000
 ```
