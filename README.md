@@ -24,13 +24,13 @@ Before contributing, ensure your system meets these requirements:
 
 1️⃣ **Fork this repository** to your GitHub account.  
 
-2️⃣ **Clone the repository** to your local machine:  
+2️⃣ Clone the repository** to your local machine:  
 ```bash
 git clone https://github.com/<your_user>/Frontend
 ```
 
 
-3️⃣ **Set up the upstream repository to keep your fork updated:
+3️⃣ Set up the upstream repository to keep your fork updated:
 
 ```bash
 git remote add upstream https://github.com/OFFER-HUB/Frontend.git
